@@ -10,6 +10,7 @@ import java.util.Set;
 
 import deployment.Observable;
 import deployment.Observer;
+import deployment.ObserverPayload;
 import deployment.model.StockQuoteTimeLapseService;
 import deployment.model.StockQuoteTimeLapseServicePortType;
 import deployment.model.WSDLStage1;
@@ -43,6 +44,7 @@ public class AppController /* subject */ extends Application implements Initiali
 	private Stage primaryStage;
 	private MonitorController monitor;
 	private GraphController graphMon;
+	private TimerScheduler updatethread;
 	// private WSDLStage2 WSDLobj2;
 
 	private boolean isInitialized = false; // deprecated
@@ -89,6 +91,7 @@ public class AppController /* subject */ extends Application implements Initiali
 		monitor.setWSDL(ws);
 		monitor.setObservable(this);
 		isInitialized = true;
+		this.notifyObs();
 
 		Parent p = loader.getRoot();
 		Stage stage = new Stage();
@@ -159,7 +162,7 @@ public class AppController /* subject */ extends Application implements Initiali
 	}
 
 	public boolean isInitialized() {
-		return isInitialized();
+		return isInitialized(); // stackoverflow
 	}
 
 	public boolean hasMonitors() {
@@ -216,6 +219,11 @@ public class AppController /* subject */ extends Application implements Initiali
 	}
 
 	@Override
+	public void notifyObsPayload() {
+		updatethread.update(this);
+	}
+
+	@Override
 	public void addObs(Observer obs) {
 		// TODO Auto-generated method stub
 		this.observers.add(obs);
@@ -225,5 +233,17 @@ public class AppController /* subject */ extends Application implements Initiali
 	public void removeObs(Observer obs) {
 		// TODO Auto-generated method stub
 		this.observers.remove(this);
+	}
+
+	@Override
+	public void addObsPayload(ObserverPayload obp) {
+		// TODO Auto-generated method stub
+		this.updatethread = (TimerScheduler) obp;
+	}
+
+	@Override
+	public void removeObsPayload(ObserverPayload obp) {
+		// TODO Auto-generated method stub
+		// why remove?
 	}
 }

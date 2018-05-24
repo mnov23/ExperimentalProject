@@ -25,16 +25,13 @@ public class MonitorController /* the one being observed */ implements Observer,
 	private AppController parent;
 	private WSDLStage1 getservice;
 	private String str;
-	
-	
-
 
 	@FXML
 	public void closeButtonAction(ActionEvent ae) {
-		
+
 		Stage stage = (Stage) btnClose.getScene().getWindow();
-	    // do what you have to do
-	    stage.close();
+		// do what you have to do
+		stage.close();
 	}
 
 	public void setSymbol(String symbol) {
@@ -64,7 +61,7 @@ public class MonitorController /* the one being observed */ implements Observer,
 			getservice = new WSDLStage1();
 			getservice.set(parent.getSymbol());
 			str = getservice.get();
-			label1.setText(str);
+			label1.setText("LOLOLOLOLOLO");
 		} catch (Exception e) {
 			System.out.println("Error!");
 		}
