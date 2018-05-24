@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.CategoryAxis?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="500.0" prefWidth="621.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deployment.controller.GraphController">
+   <children>
+      <LineChart fx:id="lineChart" layoutX="50.0" layoutY="37.0" title="Stock Graph">
+        <xAxis>
+          <CategoryAxis side="BOTTOM" />
+        </xAxis>
+        <yAxis>
+          <NumberAxis side="LEFT" />
+        </yAxis>
+      </LineChart>
+      <ComboBox id="combobox" fx:id="combobox" layoutX="225.0" layoutY="450.0" onAction="#comboChanged" prefWidth="150.0" promptText="Select Stocks" />
+   </children>
+</AnchorPane>

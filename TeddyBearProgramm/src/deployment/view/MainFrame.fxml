@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="191.0" prefWidth="316.0" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="deployment.controller.AppController">
+   <children>
+      <Button id="btnStage1" layoutX="66.0" layoutY="83.0" mnemonicParsing="false" onAction="#HandleButtonAction" text="Open Monitor (Current status)" />
+      <TextField id="txtFieldSymbol" fx:id="txtFieldSymbol" layoutX="37.0" layoutY="41.0" prefHeight="32.0" prefWidth="243.0" promptText="enter the symbol (e.g. ACB)" />
+      <Label layoutX="87.0" layoutY="14.0" text="Please enter the symbol: " />
+      <Button fx:id="btnGraph" layoutX="113.0" layoutY="116.0" mnemonicParsing="false" onAction="#getGraph" text="Open Graph" />
+   </children>
+</AnchorPane>
