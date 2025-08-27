@@ -1,0 +1,446 @@
+Folder PATH listing for volume Windows-SSD
+Volume serial number is A0C8-4374
+C:.
+│   .project
+│   LICENSE
+│   project_structure.txt
+│   README.md
+│   
+└───TeddyBearProgramm
+    │   .classpath
+    │   .gitignore
+    │   .project
+    │   
+    ├───.settings
+    │       org.eclipse.jdt.core.prefs
+    │       
+    ├───bin
+    │   └───deployment
+    │       │   Observable.class
+    │       │   Observer.class
+    │       │   
+    │       ├───controller
+    │       │       AppController.class
+    │       │       AppDriver$SchedulerThread.class
+    │       │       AppDriver$StartupThread.class
+    │       │       AppDriver.class
+    │       │       GraphController.class
+    │       │       Main.class
+    │       │       Message.class
+    │       │       MonitorController.class
+    │       │       
+    │       ├───model
+    │       │       GetFieldNamesResponse.class
+    │       │       GetGraphSymbols.class
+    │       │       GetStockQuote.class
+    │       │       GetStockQuoteResponse.class
+    │       │       GetSymbolsResponse.class
+    │       │       ObjectFactory.class
+    │       │       package-info.class
+    │       │       ParentStockQuote.class
+    │       │       StockQuoteTimeLapseService.class
+    │       │       StockQuoteTimeLapseServicePortType.class
+    │       │       StockQuoteWSCallbackHandler.class
+    │       │       StockQuoteWSStub$1.class
+    │       │       StockQuoteWSStub$2.class
+    │       │       StockQuoteWSStub$ExtensionMapper.class
+    │       │       StockQuoteWSStub$GetFieldNamesResponse$Factory.class
+    │       │       StockQuoteWSStub$GetFieldNamesResponse.class
+    │       │       StockQuoteWSStub$GetQuote$Factory.class
+    │       │       StockQuoteWSStub$GetQuote.class
+    │       │       StockQuoteWSStub$GetQuoteResponse$Factory.class
+    │       │       StockQuoteWSStub$GetQuoteResponse.class
+    │       │       StockQuoteWSStub.class
+    │       │       WSDLStage1.class
+    │       │       WSDLStage2.class
+    │       │       
+    │       └───view
+    │               ErrorBox.class
+    │               MainFrame.fxml
+    │               MainGraph.fxml
+    │               StockMonitor.fxml
+    │               styles.css
+    │               
+    ├───javafx lib
+    │   │   ant-javafx.jar
+    │   │   javafx-mx.jar
+    │   │   org.apache.xml.resolver-1.2.0.jar
+    │   │   
+    │   └───javafx-sdk-24.0.2
+    │       │   src.zip
+    │       │   
+    │       ├───bin
+    │       │       api-ms-win-core-console-l1-1-0.dll
+    │       │       api-ms-win-core-console-l1-2-0.dll
+    │       │       api-ms-win-core-datetime-l1-1-0.dll
+    │       │       api-ms-win-core-debug-l1-1-0.dll
+    │       │       api-ms-win-core-errorhandling-l1-1-0.dll
+    │       │       api-ms-win-core-file-l1-1-0.dll
+    │       │       api-ms-win-core-file-l1-2-0.dll
+    │       │       api-ms-win-core-file-l2-1-0.dll
+    │       │       api-ms-win-core-handle-l1-1-0.dll
+    │       │       api-ms-win-core-heap-l1-1-0.dll
+    │       │       api-ms-win-core-interlocked-l1-1-0.dll
+    │       │       api-ms-win-core-libraryloader-l1-1-0.dll
+    │       │       api-ms-win-core-localization-l1-2-0.dll
+    │       │       api-ms-win-core-memory-l1-1-0.dll
+    │       │       api-ms-win-core-namedpipe-l1-1-0.dll
+    │       │       api-ms-win-core-processenvironment-l1-1-0.dll
+    │       │       api-ms-win-core-processthreads-l1-1-0.dll
+    │       │       api-ms-win-core-processthreads-l1-1-1.dll
+    │       │       api-ms-win-core-profile-l1-1-0.dll
+    │       │       api-ms-win-core-rtlsupport-l1-1-0.dll
+    │       │       api-ms-win-core-string-l1-1-0.dll
+    │       │       api-ms-win-core-synch-l1-1-0.dll
+    │       │       api-ms-win-core-synch-l1-2-0.dll
+    │       │       api-ms-win-core-sysinfo-l1-1-0.dll
+    │       │       api-ms-win-core-timezone-l1-1-0.dll
+    │       │       api-ms-win-core-util-l1-1-0.dll
+    │       │       api-ms-win-crt-conio-l1-1-0.dll
+    │       │       api-ms-win-crt-convert-l1-1-0.dll
+    │       │       api-ms-win-crt-environment-l1-1-0.dll
+    │       │       api-ms-win-crt-filesystem-l1-1-0.dll
+    │       │       api-ms-win-crt-heap-l1-1-0.dll
+    │       │       api-ms-win-crt-locale-l1-1-0.dll
+    │       │       api-ms-win-crt-math-l1-1-0.dll
+    │       │       api-ms-win-crt-multibyte-l1-1-0.dll
+    │       │       api-ms-win-crt-private-l1-1-0.dll
+    │       │       api-ms-win-crt-process-l1-1-0.dll
+    │       │       api-ms-win-crt-runtime-l1-1-0.dll
+    │       │       api-ms-win-crt-stdio-l1-1-0.dll
+    │       │       api-ms-win-crt-string-l1-1-0.dll
+    │       │       api-ms-win-crt-time-l1-1-0.dll
+    │       │       api-ms-win-crt-utility-l1-1-0.dll
+    │       │       decora_sse.dll
+    │       │       fxplugins.dll
+    │       │       glass.dll
+    │       │       glib-lite.dll
+    │       │       gstreamer-lite.dll
+    │       │       javafx_font.dll
+    │       │       javafx_iio.dll
+    │       │       jfxmedia.dll
+    │       │       jfxwebkit.dll
+    │       │       msvcp140.dll
+    │       │       msvcp140_1.dll
+    │       │       msvcp140_2.dll
+    │       │       prism_common.dll
+    │       │       prism_d3d.dll
+    │       │       prism_sw.dll
+    │       │       ucrtbase.dll
+    │       │       vcruntime140.dll
+    │       │       vcruntime140_1.dll
+    │       │       
+    │       ├───legal
+    │       │   ├───javafx.base
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       LICENSE
+    │       │   │       
+    │       │   ├───javafx.controls
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       LICENSE
+    │       │   │       
+    │       │   ├───javafx.fxml
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       LICENSE
+    │       │   │       
+    │       │   ├───javafx.graphics
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       jpeg_fx.md
+    │       │   │       LICENSE
+    │       │   │       mesa3d.md
+    │       │   │       pipewire.md
+    │       │   │       
+    │       │   ├───javafx.media
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       directshow.md
+    │       │   │       glib.md
+    │       │   │       gstreamer.md
+    │       │   │       libffi.md
+    │       │   │       LICENSE
+    │       │   │       
+    │       │   ├───javafx.swing
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       LICENSE
+    │       │   │       
+    │       │   ├───javafx.web
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       icu_web.md
+    │       │   │       libxml2.md
+    │       │   │       libxslt.md
+    │       │   │       LICENSE
+    │       │   │       webkit.md
+    │       │   │       
+    │       │   ├───jdk.jsobject
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       LICENSE
+    │       │   │       
+    │       │   ├───jfx.incubator.input
+    │       │   │       ADDITIONAL_LICENSE_INFO
+    │       │   │       ASSEMBLY_EXCEPTION
+    │       │   │       LICENSE
+    │       │   │       
+    │       │   └───jfx.incubator.richtext
+    │       │           ADDITIONAL_LICENSE_INFO
+    │       │           ASSEMBLY_EXCEPTION
+    │       │           LICENSE
+    │       │           unicode-fx.md
+    │       │           
+    │       └───lib
+    │               javafx-swt.jar
+    │               javafx.base.jar
+    │               javafx.controls.jar
+    │               javafx.fxml.jar
+    │               javafx.graphics.jar
+    │               javafx.media.jar
+    │               javafx.properties
+    │               javafx.swing.jar
+    │               javafx.web.jar
+    │               jdk.jsobject.jar
+    │               jfx.incubator.input.jar
+    │               jfx.incubator.richtext.jar
+    │               
+    ├───src
+    │   └───deployment
+    │       │   Observable.java
+    │       │   Observer.java
+    │       │   
+    │       ├───controller
+    │       │       AppController.java
+    │       │       AppDriver.java
+    │       │       GraphController.java
+    │       │       Main.java
+    │       │       Message.java
+    │       │       MonitorController.java
+    │       │       
+    │       ├───model
+    │       │       GetFieldNamesResponse.java
+    │       │       GetGraphSymbols.java
+    │       │       GetStockQuote.java
+    │       │       GetStockQuoteResponse.java
+    │       │       GetSymbolsResponse.java
+    │       │       ObjectFactory.java
+    │       │       package-info.java
+    │       │       ParentStockQuote.java
+    │       │       StockQuoteTimeLapseService.java
+    │       │       StockQuoteTimeLapseServicePortType.java
+    │       │       StockQuoteWSCallbackHandler.java
+    │       │       StockQuoteWSStub.java
+    │       │       WSDLStage1.java
+    │       │       WSDLStage2.java
+    │       │       
+    │       └───view
+    │               ErrorBox.java
+    │               MainFrame.fxml
+    │               MainGraph.fxml
+    │               StockMonitor.fxml
+    │               styles.css
+    │               
+    └───WebContent
+        ├───axis2-web
+        │   │   error.jsp
+        │   │   HappyAxis.jsp
+        │   │   index.jsp
+        │   │   MainFrame.jsp
+        │   │   
+        │   ├───css
+        │   │       axis-style.css
+        │   │       
+        │   ├───Error
+        │   │       AuthError.html
+        │   │       error404.jsp
+        │   │       error500.jsp
+        │   │       GenError.html
+        │   │       
+        │   └───images
+        │           asf-logo.gif
+        │           axis.gif
+        │           axis.jpg
+        │           axis_l.jpg
+        │           
+        ├───META-INF
+        │       MANIFEST.MF
+        │       
+        ├───org
+        │   └───apache
+        │       └───axis2
+        │           └───soapmonitor
+        │               └───applet
+        │                       SOAPMonitorApplet$ServiceFilterPanel.class
+        │                       SOAPMonitorApplet$SOAPMonitorData.class
+        │                       SOAPMonitorApplet$SOAPMonitorFilter.class
+        │                       SOAPMonitorApplet$SOAPMonitorPage.class
+        │                       SOAPMonitorApplet$SOAPMonitorTableModel.class
+        │                       SOAPMonitorApplet$SOAPMonitorTextArea.class
+        │                       SOAPMonitorApplet.class
+        │                       
+        └───WEB-INF
+            ├───classes
+            │   │   commons-logging.properties
+            │   │   log4j.properties
+            │   │   
+            │   ├───META-INF
+            │   │       DEPENDENCIES
+            │   │       LICENSE
+            │   │       NOTICE
+            │   │       
+            │   └───org
+            │       └───apache
+            │           └───axis2
+            │               ├───transport
+            │               │   └───http
+            │               │           AxisAdminServlet.class
+            │               │           
+            │               └───webapp
+            │                       Action.class
+            │                       ActionHandler.class
+            │                       ActionResult.class
+            │                       AdminActions.class
+            │                       AxisAdminServlet.class
+            │                       CSRFPreventionResponseWrapper.class
+            │                       CSRFTokenCache.class
+            │                       Redirect.class
+            │                       Status.class
+            │                       StatusCache$1.class
+            │                       StatusCache.class
+            │                       View.class
+            │                       
+            ├───conf
+            │       axis2.policy
+            │       axis2.xml
+            │       commons-logging.properties
+            │       log4j.properties
+            │       
+            ├───include
+            │       adminfooter.inc
+            │       adminfooter.jsp
+            │       adminheader.jsp
+            │       footer.inc
+            │       header.inc
+            │       httpbase.jsp
+            │       LeftFrame.jsp
+            │       link-footer.inc
+            │       link-footer.jsp
+            │       
+            ├───lib
+            │       activation-1.1.jar
+            │       activation-LICENSE.txt
+            │       antlr-2-LICENSE.txt
+            │       antlr-2.7.7.jar
+            │       axiom-api-1.2.20.jar
+            │       axiom-dom-1.2.20.jar
+            │       axiom-impl-1.2.20.jar
+            │       axiom-jaxb-1.2.20.jar
+            │       axiom-LICENSE.txt
+            │       axis2-adb-1.7.7.jar
+            │       axis2-adb-codegen-1.7.7.jar
+            │       axis2-ant-plugin-1.7.7.jar
+            │       axis2-clustering-1.7.7.jar
+            │       axis2-codegen-1.7.7.jar
+            │       axis2-corba-1.7.7.jar
+            │       axis2-fastinfoset-1.7.7.jar
+            │       axis2-java2wsdl-1.7.7.jar
+            │       axis2-jaxbri-1.7.7.jar
+            │       axis2-jaxws-1.7.7.jar
+            │       axis2-jibx-1.7.7.jar
+            │       axis2-json-1.7.7.jar
+            │       axis2-kernel-1.7.7.jar
+            │       axis2-LICENSE.txt
+            │       axis2-metadata-1.7.7.jar
+            │       axis2-mtompolicy-1.7.7.jar
+            │       axis2-saaj-1.7.7.jar
+            │       axis2-soapmonitor-servlet-1.7.7.jar
+            │       axis2-spring-1.7.7.jar
+            │       axis2-transport-base-1.7.7.jar
+            │       axis2-transport-http-1.7.7.jar
+            │       axis2-transport-jms-1.7.7.jar
+            │       axis2-transport-local-1.7.7.jar
+            │       axis2-transport-mail-1.7.7.jar
+            │       axis2-transport-tcp-1.7.7.jar
+            │       axis2-transport-udp-1.7.7.jar
+            │       axis2-transport-xmpp-1.7.7.jar
+            │       axis2-xmlbeans-1.7.7.jar
+            │       commons-cli-1.2.jar
+            │       commons-cli-LICENSE.txt
+            │       commons-codec-1.2.jar
+            │       commons-codec-LICENSE.txt
+            │       commons-fileupload-1.3.3.jar
+            │       commons-fileupload-LICENSE.txt
+            │       commons-httpclient-3.1.jar
+            │       commons-httpclient-LICENSE.txt
+            │       commons-io-2.1.jar
+            │       commons-io-LICENSE.txt
+            │       commons-logging-1.1.1.jar
+            │       commons-logging-LICENSE.txt
+            │       geronimo-stax-api_1.0_spec-1.0.1.jar
+            │       httpcore-4.4.4.jar
+            │       httpcore-LICENSE.txt
+            │       log4j-1.2.15.jar
+            │       log4j-LICENSE.txt
+            │       mail-1.4.jar
+            │       mail-LICENSE.txt
+            │       neethi-3.0.3.jar
+            │       neethi-LICENSE.txt
+            │       stax2-api-3.1.1.jar
+            │       stax2-api.LICENSE.txt
+            │       woden-core-1.0M10.jar
+            │       woden-core-LICENSE.txt
+            │       wsdl4j-1.6.2.jar
+            │       wsdl4j-LICENSE.txt
+            │       xmlbeans-2.5.0.jar
+            │       xmlbeans-LICENSE.txt
+            │       xmlschema-core-2.2.1.jar
+            │       
+            ├───modules
+            │       addressing-1.7.7.mar
+            │       axis2-jaxws-mar-1.7.7.mar
+            │       mex-1.7.7.mar
+            │       modules.list
+            │       mtompolicy-1.7.7.mar
+            │       ping-1.7.7.mar
+            │       scripting-1.7.7.mar
+            │       soapmonitor-1.7.7.mar
+            │       
+            ├───services
+            │       services.list
+            │       version-1.7.7.aar
+            │       
+            ├───tags
+            │       status.tag
+            │       
+            └───views
+                │   listFaultyService.jsp
+                │   listServices.jsp
+                │   
+                └───admin
+                        activateService.jsp
+                        admin.jsp
+                        deactivateService.jsp
+                        editServiceParameters.jsp
+                        engageGlobally.jsp
+                        engageToOperation.jsp
+                        engageToService.jsp
+                        engageToServiceGroup.jsp
+                        errorModule.jsp
+                        globalModules.jsp
+                        listModules.jsp
+                        listServiceGroups.jsp
+                        listServices.jsp
+                        listSingleService.jsp
+                        Login.jsp
+                        SelectService.jsp
+                        upload.jsp
+                        viewContexts.jsp
+                        viewGlobalChains.jsp
+                        viewOperationSpecificChains.jsp
+                        viewphases.jsp
+                        viewServiceContext.jsp
+                        viewServiceGroupContext.jsp
+                        
