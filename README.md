@@ -14,6 +14,8 @@ Once the user chose which Stock to monitor and pressed the Button, it would open
 The purpose of this assignment was to demonstrate ability to create software using the MVC pattern. 
 For all intended purposes, the programm does compile and run.[^1] It just crashes.
 
+Main launch point for the application in `deployement/controller/AppDriver.java`
+
 So into the dumpster it goes! 🔥🗑️
 
 
